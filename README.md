@@ -662,13 +662,5 @@ SELECT * FROM vw_StudentPerformance ORDER BY CumulativeGPA DESC;
 ✓ Stored Procedures                 ✓ Performance Tuning
 ✓ Analytical Views                  ✓ Report Generation
 ```
-
-## 📞 Contact
-
-**Victor Torres**
-- GitHub: [@vitugo23](https://github.com/vitugo23)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/vitugo)
-- Email: vitugo.torres@gmail.com
-
 ---
 
