@@ -6,7 +6,7 @@
 [![Database Design](https://img.shields.io/badge/Database-Design-blue)](https://github.com/vitugo23/Student-Information-System)
 [![Academic](https://img.shields.io/badge/Domain-Education-green)](https://github.com/vitugo23/Student-Information-System)
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [My Contributions](#my-contributions)
@@ -19,7 +19,7 @@
 - [Views](#views)
 - [Technologies Used](#technologies-used)
 
-## 🎯 Overview
+## Overview
 
 The Student Information System is a complete relational database designed for managing academic operations in educational institutions. It handles student enrollment, course management, grade tracking, GPA calculations, and comprehensive academic reporting.
 
@@ -36,7 +36,7 @@ This project demonstrates advanced SQL concepts including recursive queries for 
 - **Enrollment Validation** - Prerequisite checking, capacity limits
 - **Grade Distribution** - Statistical analysis and reports
 
-## 👨‍💻 My Contributions
+## My Contributions
 
 **Role**: Database Architect & SQL Developer
 
@@ -49,7 +49,7 @@ This project demonstrates advanced SQL concepts including recursive queries for 
 - Designed temporal tables for grade change tracking
 - Established **naming conventions** and documentation standards
 
-#### 📊 Complex Business Logic Implementation
+#### Complex Business Logic Implementation
 - Built **GPA calculation engine** using triggers and computed columns
 - Implemented **course prerequisite validation** with recursive queries
 - Created **enrollment capacity management** system
@@ -64,7 +64,7 @@ This project demonstrates advanced SQL concepts including recursive queries for 
 - **Temporal Queries**: Grade history tracking
 - **Transactions**: Enrollment with validation
 
-#### 📈 Academic Analytics & Reporting
+#### Academic Analytics & Reporting
 - **Student Performance Dashboards**: GPA trends, credit tracking
 - **Course Analytics**: Pass rates, grade distributions
 - **Faculty Reports**: Teaching load, student evaluations
@@ -145,7 +145,7 @@ FROM Students;
 
 ---
 
-## ✨ Features
+## Features
 
 ### Student Management
 - Student registration and profile management
@@ -215,7 +215,7 @@ FROM Students;
 - **5 Triggers** for automated calculations
 - **Multiple Indexes** for query optimization
 
-## 📊 Entity Relationship Diagram
+## Entity Relationship Diagram
 
 ```
 ┌─────────────────┐          ┌─────────────────┐
@@ -295,7 +295,7 @@ FROM Students;
 └─────────────────┘
 ```
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -366,7 +366,7 @@ SELECT
 SELECT * FROM vw_StudentTranscript WHERE StudentID = 1;
 ```
 
-## 📝 Sample Queries
+## Sample Queries
 
 ### Basic Queries
 
@@ -551,7 +551,7 @@ GROUP BY f.FacultyID, f.FirstName, f.LastName, d.DepartmentName
 ORDER BY TotalCredits DESC;
 ```
 
-## 🔧 Stored Procedures
+## Stored Procedures
 
 ### sp_EnrollStudent
 Enrolls a student in a course section with validation
@@ -601,7 +601,7 @@ Generates Dean's List for a term
 EXEC sp_GenerateDeansList @TermID = 1;
 ```
 
-## 📊 Views
+## Views
 
 ### vw_StudentTranscript
 Complete academic transcript with all courses and grades
@@ -639,7 +639,7 @@ Student performance metrics and academic standing
 SELECT * FROM vw_StudentPerformance ORDER BY CumulativeGPA DESC;
 ```
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **SQL Server** - Relational database management system
 - **T-SQL** - Transact-SQL for queries and procedures
@@ -650,7 +650,7 @@ SELECT * FROM vw_StudentPerformance ORDER BY CumulativeGPA DESC;
 - **Window Functions** - Rankings and analytics
 - **Indexes** - Performance optimization
 
-## 📈 Skills Demonstrated
+## Skills Demonstrated
 
 ```
 ✓ Academic Domain Modeling          ✓ Recursive Queries (CTEs)
@@ -667,9 +667,8 @@ SELECT * FROM vw_StudentPerformance ORDER BY CumulativeGPA DESC;
 
 **Victor Torres**
 - GitHub: [@vitugo23](https://github.com/vitugo23)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/vitugo)
+- Email: vitugo.torres@gmail.com
 
 ---
 
-**Part of my SQL Portfolio** | [View Other Projects](https://github.com/vitugo23)
